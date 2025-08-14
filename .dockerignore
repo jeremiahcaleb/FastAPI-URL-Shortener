@@ -1,0 +1,45 @@
+# Bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# macOS & system files
+.DS_Store
+
+# Logs
+*.log
+
+# Editor settings
+.vscode/
+.idea/
+
+# Test / coverage outputs
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Distribution / build
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Local databases (e.g., SQLite)
+*.db
+*.sqlite3
+
+# Docker-specific
+Dockerfile.dev
+docker-compose.override.yml
